@@ -1,9 +1,9 @@
-import os
 import sys
 from PyQt5 import QtWidgets, uic
 from components.device_select import device_select
 from components.new_project_setup import new_project_setup
 from components.user_manual import user_manual
+import os
 
 
 class MainWindow(QtWidgets.QMainWindow):
