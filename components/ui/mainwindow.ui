@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>project</string>
+    </property>
+    <addaction name="actionnew"/>
+    <addaction name="separator"/>
+    <addaction name="actionopen"/>
+    <addaction name="separator"/>
+    <addaction name="actionexport"/>
+    <addaction name="separator"/>
+    <addaction name="actionexport_2"/>
+   </widget>
+   <widget class="QMenu" name="menuedit">
+    <property name="title">
+     <string>device</string>
+    </property>
+    <addaction name="actiondevice_select"/>
+    <addaction name="separator"/>
+    <addaction name="actiondevice_setup"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuwindows">
+    <property name="title">
+     <string>user window</string>
+    </property>
+    <addaction name="actionnew_user_window"/>
+   </widget>
+   <widget class="QMenu" name="menusetup">
+    <property name="title">
+     <string>setup</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menuedit"/>
+   <addaction name="menuwindows"/>
+   <addaction name="menusetup"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHMI_DEMO">
+   <property name="text">
+    <string>HMI DEMO</string>
+   </property>
+  </action>
+  <action name="actionnew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionopen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionexport">
+   <property name="text">
+    <string>Import</string>
+   </property>
+  </action>
+  <action name="actionimport">
+   <property name="text">
+    <string>import</string>
+   </property>
+  </action>
+  <action name="actionexport_2">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actiondevice_select">
+   <property name="text">
+    <string>device select</string>
+   </property>
+  </action>
+  <action name="actiondevice_setup">
+   <property name="text">
+    <string>device setup</string>
+   </property>
+  </action>
+  <action name="actionnew_user_window">
+   <property name="text">
+    <string>new user window</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

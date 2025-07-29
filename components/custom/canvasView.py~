@@ -1,0 +1,17 @@
+from PyQt5 import QtWidgets
+
+
+class canvasView(QtWidgets.QGraphicsView):
+
+    def __init__(self, scene):
+        super().__init__(scene)
+        self.setAcceptDrops(True)
+
+    def dragEnterEvent(self, event):
+        if event.mimeData().hasText():
+            event.acceptProposedAction()
+
+    def dropEvent(self, event):
+        component_name = event.mimeData().text()
+        print(component_name)
+        event.acceptProposedAction()

@@ -1,0 +1,66 @@
+{
+    "buttons": [
+	{
+	    "name": "按钮1",
+	    "icon_path": "icon/user_configuration/button1.png",
+	    "property_json_name": "button_property.json"
+	},
+	{
+	    "name": "按钮2",
+	    "icon_path": "icon/user_configuration/button2.png",
+	    "property_json_name": "button_property.json"
+	},
+	{
+	    "name": "自定义",
+	    "property_json_name": "button_property.json"
+	}
+    ],
+    "switchs": [
+	{
+	    "name": "开关1",
+	    "icon_path": "icon/user_configuration/switch1.png",
+            "property_json_name": "switch_property.json"
+	},
+	{
+	    "name": "开关2",
+	    "icon_path": "icon/user_configuration/switch2.png",
+            "property_json_name": "switch_property.json"
+	},
+	{
+	    "name": "自定义",
+            "property_json_name": "switch_property.json"
+	}
+    ],
+    "curves": [
+	{
+	    "name": "曲线1",
+	    "icon_path": "icon/user_configuration/curve1.png",
+            "property_json_name": "curve_property.json"
+	},
+	{
+	    "name": "曲线2",
+	    "icon_path": "icon/user_configuration/curve2.png",
+            "property_json_name": "curve_property.json"
+	},
+	{
+	    "name": "自定义",
+            "property_json_name": "curve_property.json"
+	}
+    ],
+    "charts": [
+	{
+	    "name": "图表1",
+	    "icon_path": "icon/user_configuration/chart1.png",
+            "property_json_name": "chart_property.json"
+	},
+	{
+	    "name": "图表2",
+	    "icon_path": "icon/user_configuration/chart2.png",
+            "property_json_name": "chart_property.json"
+	},
+	{
+	    "name": "自定义",
+            "property_json_name": "chart_property.json"
+	}
+    ]
+}

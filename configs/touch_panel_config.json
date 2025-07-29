@@ -1,0 +1,28 @@
+{
+    "items": [
+	{
+	    "text": "touch panel1",
+	    "panel_info": "touch panel1, 7寸触摸屏， 支持以太网"
+	},
+	{
+	    "text": "touch panel2",
+	    "panel_info": "touch panel2, 11寸触摸屏，支持以太网，支持串口"
+	},
+	{
+	    "text": "touch panel3",
+	    "panel_info": "touch panel3, 15寸触摸屏，支持以太网，支持串口"
+	},
+	{
+	    "text": "touch panel4",
+	    "panel_info": "touch panel4, 15寸触摸屏，支持以太网，支持串口"
+	},
+	{
+	    "text": "touch panel5",
+	    "panel_info": "touch panel5, 15寸触摸屏，支持以太网，支持串口"
+	},
+	{
+	    "text": "touch panel6",
+	    "panel_info": "touch panel6, 15寸触摸屏，支持以太网，支持串口"
+	}	
+    ]
+}
